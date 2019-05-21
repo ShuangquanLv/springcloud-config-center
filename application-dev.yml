@@ -1,0 +1,12 @@
+# Eureka客户端配置
+eureka:
+    client:
+        registryFetchIntervalSeconds: 5
+        service-url:
+            # eureka-server端无安全认证的配置
+            #defaultZone: http://127.0.0.1:8089/eureka
+            # eureka-server端带安全认证的配置
+            defaultZone: http://admin:admin@127.0.0.1:8089/eureka
+    instance:
+        leaseRenewalIntervalInSeconds: 10
+        health-check-url-path: /actuator/health

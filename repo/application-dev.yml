@@ -3,7 +3,7 @@ file:
     upload:
         # 上传文件存放目录绝对地址
         #dir: E:\download\dev\
-        dir: E:\download\dev\new3\
+        dir: E:\download\dev\new4\
     download:
         # 下载文件存放目录绝对地
         dir: E:\download\dev\
